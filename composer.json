@@ -1,0 +1,21 @@
+{
+    "name": "marcussouza/barbershop-system",
+    "description": "barbershop",
+    "autoload": {
+        "psr-4": {
+            "Marcussouza\\BarbershopSystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "omarcus212",
+            "email": "marcusvinniciusouza@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4",
+        "nyholm/psr7": "^1.8",
+        "php-di/php-di": "^7.1",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
